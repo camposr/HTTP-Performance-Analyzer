@@ -1,0 +1,8 @@
+HTTP Performance Analyzer
+
+This scripts expects a modified Apache log file as its input (STDIN)
+The last field of the log file must be the service time for each HTTP transaction (%D in mod_log_config)
+
+The output is a png file.
+
+
